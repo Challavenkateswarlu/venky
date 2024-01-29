@@ -1,7 +1,9 @@
 #! /bin/bash
 #
 #
-# 
+#
+username="Developer"
+passwd="Fireflink@123"
 username="Admin"
 passwd="testyantra123"
 echo "enter the user name"
@@ -10,7 +12,8 @@ echo "enter the passwd"
 read pass
 if [ $username == $user ] && [ $passwd == $pass ];
 then
-	echo "Authentication Sucessfull"
+	echo "successfull"
 else
-	echo "Authentication Unsucessf"
+	echo "unsucceessfull"
+fi
 
